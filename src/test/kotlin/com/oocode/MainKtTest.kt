@@ -5,9 +5,9 @@ import com.natpryce.hamkrest.equalTo
 import moo
 import org.junit.jupiter.api.Test
 
-internal class MainKtTest {
+internal class AcmeForecastTests {
     @Test
-    fun `moo is moo`() {
+    fun `moo`() {
         assertThat(moo(), equalTo("boo"))
     }
 }
