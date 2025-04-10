@@ -22,6 +22,6 @@ class CachingForecaster (val delegate: Forecaster): Forecaster {
         cache[key] = result
 
 
-        return AcmeForecastingClientResult("4", "5", "Cold and rainy")
+        return result
     }
 }
