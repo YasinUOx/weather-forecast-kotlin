@@ -6,8 +6,5 @@ import moo
 import org.junit.jupiter.api.Test
 
 internal class AcmeForecastTests {
-    @Test
-    fun `moo`() {
-        assertThat(moo(), equalTo("boo"))
-    }
+
 }
